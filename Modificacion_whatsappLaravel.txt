@@ -1,0 +1,65 @@
+Se debe incluir el package:
+composer require dmeys/laravelwhatsapp:dev-master
+Registrar el servicio del proveedor y el alias
+'providers' => [
+    // ...
+    Lucasvdh\LaravelWhatsapp\WhatsappServiceProvider::class,
+    // ...
+  ],
+
+'aliases' => [
+    // ...
+    'Whatsapp' => Lucasvdh\LaravelWhatsapp\Facades\Whatsapp::class,
+    // ...
+  ],
+
+listener
+<?php namespace App\Listeners;
+
+use Lucasvdh\LaravelWhatsapp\Abstracts\Listener as WhatsappListener
+
+class WhatsappEventListener extends WhatsappListener
+{
+  // Check the Lucasvdh\LaravelWhatsapp\Interface\Listener for all events
+}
+
+Registro
+$phone_number = '31612345678' // Your phone number including country code
+$type = 'sms';
+// $type = 'voice';
+$result = Whatsapp::requestCode($phone_number, $type);
+Verificacion
+$phone_number = '31612345678' // Your phone number including country code
+$code = '123-456'; // The code you've received through sms or voice
+
+try {
+  $result = Whatsapp::register('$phone_number, $code);
+}
+catch(Exception $e) {
+  die('Something went wrong during the registration: ' . $e->getMessage());
+}
+
+// Store this password, you'll need this to connect to the network
+$password = $result['pw']
+
+Conexión
+$phone_number = '31612345678' // Your phone number including country code
+$display_name = 'Foo Bar'; // This is the name that other Whatsapp users will see
+$password = '****************************'; // The password you received from the registration process 
+
+// Fetch the connection
+$connection = Whatsapp::getConnection($phone_number, $display_name);
+
+// Initialize your listener
+$listener = new WhatsappEventListener($connection);
+
+// Connect to the network
+$connection = Whatsapp::connect($connection, $password, $listener);
+
+// You are now connected
+
+Envio de mensaje
+$target = '3112345678'; // The phone number of the person you are sending the message to
+$message = 'This is a message';
+
+$message_hash = $connection->sendMessage($target , $message);
