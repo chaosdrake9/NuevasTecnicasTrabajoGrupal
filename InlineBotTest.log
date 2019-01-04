@@ -1,0 +1,638 @@
+BotFather, [28.12.18 19:10]
+I can help you create and manage Telegram bots. If you're new to the Bot API, please see the manual (https://core.telegram.org/bots).
+
+You can control me by sending these commands:
+
+/newbot - create a new bot
+/mybots - edit your bots [beta]
+
+Edit Bots
+/setname - change a bot's name
+/setdescription - change bot description
+/setabouttext - change bot about info
+/setuserpic - change bot profile photo
+/setcommands - change the list of commands
+/deletebot - delete a bot
+
+Bot Settings
+/token - generate authorization token
+/revoke - revoke bot access token
+/setinline - toggle inline mode (https://core.telegram.org/bots/inline)
+/setinlinegeo - toggle inline location requests (https://core.telegram.org/bots/inline#location-based-results)
+/setinlinefeedback - change inline feedback (https://core.telegram.org/bots/inline#collecting-feedback) settings
+/setjoingroups - can your bot be added to groups?
+/setprivacy - toggle privacy mode (https://core.telegram.org/bots#privacy-mode) in groups
+
+Games
+/mygames - edit your games (https://core.telegram.org/bots/games) [beta]
+/newgame - create a new game (https://core.telegram.org/bots/games)
+/listgames - get a list of your games
+/editgame - edit a game
+/deletegame - delete an existing game
+
+Juanpa Boada, [28.12.18 19:11]
+/newbot
+
+BotFather, [28.12.18 19:11]
+Alright, a new bot. How are we going to call it? Please choose a name for your bot.
+
+Juanpa Boada, [28.12.18 19:11]
+TestBotBarman
+
+BotFather, [28.12.18 19:11]
+Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.
+
+Juanpa Boada, [28.12.18 19:11]
+TestBarmanBot
+
+BotFather, [28.12.18 19:11]
+Done! Congratulations on your new bot. You will find it at t.me/TestBarmanBot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+
+Use this token to access the HTTP API:
+768371337:AAGP4CNaQU0QtOFsUpQn135D_IF7SWnhG00
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+Juanpa Boada, [28.12.18 19:14]
+/setcommands
+
+BotFather, [28.12.18 19:14]
+Choose a bot to change the list of commands.
+
+Juanpa Boada, [28.12.18 19:14]
+@TestBarmanBot
+
+BotFather, [28.12.18 19:14]
+OK. Send me a list of commands for your bot. Please use this format:
+
+command1 - Description
+command2 - Another description
+
+Juanpa Boada, [28.12.18 19:18]
+Hola - Hola como estas
+Hola - Que tal
+Hola - Como te va
+
+BotFather, [28.12.18 19:18]
+Sorry, the list of commands is invalid. Please use this format:
+
+command1 - Description
+command2 - Another description
+
+Juanpa Boada, [28.12.18 19:18]
+Hola1 - Hola como estas
+Hola2 - Que tal
+Hola3 - Como te va
+
+BotFather, [28.12.18 19:18]
+Sorry, the list of commands is invalid. Please use this format:
+
+command1 - Description
+command2 - Another description
+
+Juanpa Boada, [28.12.18 19:19]
+hola1 - Hola como estas
+hola2- Que tal
+hola3 - Como te va
+
+BotFather, [28.12.18 19:19]
+Success! Command list updated. /help
+
+Juanpa Boada, [28.12.18 19:20]
+/help
+
+BotFather, [28.12.18 19:20]
+I can help you create and manage Telegram bots. If you're new to the Bot API, please see the manual (https://core.telegram.org/bots).
+
+You can control me by sending these commands:
+
+/newbot - create a new bot
+/mybots - edit your bots [beta]
+
+Edit Bots
+/setname - change a bot's name
+/setdescription - change bot description
+/setabouttext - change bot about info
+/setuserpic - change bot profile photo
+/setcommands - change the list of commands
+/deletebot - delete a bot
+
+Bot Settings
+/token - generate authorization token
+/revoke - revoke bot access token
+/setinline - toggle inline mode (https://core.telegram.org/bots/inline)
+/setinlinegeo - toggle inline location requests (https://core.telegram.org/bots/inline#location-based-results)
+/setinlinefeedback - change inline feedback (https://core.telegram.org/bots/inline#collecting-feedback) settings
+/setjoingroups - can your bot be added to groups?
+/setprivacy - toggle privacy mode (https://core.telegram.org/bots#privacy-mode) in groups
+
+Games
+/mygames - edit your games (https://core.telegram.org/bots/games) [beta]
+/newgame - create a new game (https://core.telegram.org/bots/games)
+/listgames - get a list of your games
+/editgame - edit a game
+/deletegame - delete an existing game
+
+Juanpa Boada, [28.12.18 19:21]
+/mybots
+
+BotFather, [28.12.18 19:21]
+Edit @TestBarmanBot info.
+
+Name: TestBotBarman
+Description: 🤙 Este bot te ayudara a decidir que beber 🤙
+About: 🚫
+Botpic: 🚫 no botpic
+Commands: 3 commands
+
+BotFather, [28.12.18 19:21]
+OK. Send me the new description for the bot. People will see this description when they open a chat with your bot, in a block titled 'What can this bot do?'.
+
+Juanpa Boada, [28.12.18 19:22]
+🤙 Este bot te ayudara a decidir que beber 🤙
+
+BotFather, [28.12.18 19:22]
+Edit @TestBarmanBot info.
+
+Name: TestBotBarman
+Description: 🤙 Este bot te ayudara a decidir que beber 🤙
+About: Juanpaborg
+Botpic: 🚫 no botpic
+Commands: 3 commands
+
+BotFather, [28.12.18 19:23]
+OK. Send me the new 'About' text. People will see this text on the bot's profile page and it will be sent together with a link to your bot when they share it with someone.
+
+Juanpa Boada, [28.12.18 19:23]
+Juanpaborg
+
+BotFather, [28.12.18 19:23]
+Edit @TestBarmanBot info.
+
+Name: TestBotBarman
+Description: 🤙 Este bot te ayudara a decidir que beber 🤙
+About: Juanpaborg
+Botpic: 🖼 has a botpic
+Commands: 3 commands
+
+BotFather, [28.12.18 19:23]
+OK. Send me the new profile photo for the bot.
+
+Juanpa Boada, [28.12.18 19:24]
+[ Photo ]
+
+BotFather, [28.12.18 19:24]
+Choose a bot from the list below:
+
+
+
+------------------------------------------
+
+
+
+
+Manybot, [28.12.18 19:36]
+Hello Juanpa!
+
+Manybot can help you create your own bots. With Manybot you can send out posts to your users, create custom commands and beautiful menus.
+
+Use /addbot command to create your first bot.
+
+Juanpa Boada, [28.12.18 19:36]
+/addbot
+
+Manybot, [28.12.18 19:36]
+1⃣ Go to @BotFather. Press his name to do that and then press 'Send Messege' if it's needed.
+2⃣ Create a new bot with him. To do this use the 'newbot' command inside @BotFather.
+3⃣ Copy the API token that @BotFather will give you.
+4⃣ Come back to @Manybot and send the copied API token here.
+
+Juanpa Boada, [28.12.18 19:37]
+I’ve copied the API token
+
+Manybot, [28.12.18 19:37]
+Good. Send the API token in the next message.
+
+Juanpa Boada, [28.12.18 19:37]
+768371337:AAGP4CNaQU0QtOFsUpQn135D_IF7SWnhG00
+
+Manybot, [28.12.18 19:37]
+Token for @TestBarmanBot accepted!
+
+Last step.
+
+Write a few words about @TestBarmanBot. What does it do?
+
+..or /skip
+
+Juanpa Boada, [28.12.18 19:37]
+🤙 Soy un bot que te ayuda con Bebidas 🤙
+
+Manybot, [28.12.18 19:37]
+Congratulations! Your bot is ready.
+
+Invite your audience to your bot using this link: http://telegram.me/TestBarmanBot
+
+Now you can send out updates to your subscribers using the /newpost command or set up autoposting from Twitter, YouTube or RSS feeds using /autoposting command.
+
+
+
+----------------------------------
+
+
+TestBotBarman, [28.12.18 19:37]
+📢 Posting
+/newpost - send a post to your subscribers
+/schedule - view your scheduled posts
+/subscribers - see how many subscribers you have
+
+👾 Commands and Bot Menu
+/commands - manage custom commands and user menues
+
+🔧 Settings
+/botlang - set up your bot language
+/setdescription - change the description of your bot
+/autoposting - set up autoposting from Twitter, YouTube, RSS, VK
+/channels - automate posting from your bot to a Telegram channel
+/admins - manage admins of your bots
+
+📚 Tutorials
+/tutorials - discover how to create and manage your bots
+
+💢 Other
+/help - this menu
+
+Have further questions? You can always reach us at hello@manybot.io
+
+Juanpa Boada, [28.12.18 19:38]
+Custom Commands
+
+TestBotBarman, [28.12.18 19:38]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:38]
+Create Command
+
+TestBotBarman, [28.12.18 19:38]
+Enter the command name. Please use only latin letters, numbers and '_'.
+
+Some examples:
+/website
+/pricelist
+/contacts
+/best_music
+/best_photos
+
+Juanpa Boada, [28.12.18 19:38]
+Cancel
+
+TestBotBarman, [28.12.18 19:38]
+Custom command creation canceled.
+
+TestBotBarman, [28.12.18 19:38]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:39]
+/commands
+
+TestBotBarman, [28.12.18 19:39]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:39]
+Create Command
+
+TestBotBarman, [28.12.18 19:39]
+Enter the command name. Please use only latin letters, numbers and '_'.
+
+Some examples:
+/website
+/pricelist
+/contacts
+/best_music
+/best_photos
+
+Juanpa Boada, [28.12.18 19:39]
+show_drinks
+
+TestBotBarman, [28.12.18 19:39]
+Bot can reply with one or more messages to a custom command. You can use text, pictures, videos or any other file type.
+
+Send everything that you want to add as a reply to this command and press 'Save'.
+
+Juanpa Boada, [28.12.18 19:39]
+Add Question
+
+TestBotBarman, [28.12.18 19:39]
+Choose question type.
+
+Simple question: User can reply with any text or file.
+
+Multiple choice: User can select one answer from a predefined list.
+
+Multiple answer question: User can reply with a number of messages and files.
+
+Juanpa Boada, [28.12.18 19:39]
+Simple question
+
+TestBotBarman, [28.12.18 19:39]
+Enter your question.
+
+Juanpa Boada, [28.12.18 19:40]
+Cancel
+
+TestBotBarman, [28.12.18 19:40]
+You can continue attaching messages and files to your command.
+
+Juanpa Boada, [28.12.18 19:40]
+Save
+
+TestBotBarman, [28.12.18 19:40]
+Send messages, pictures, music or any other files to add them as a reply to your custom command.
+
+Please wait until all files are completely uploaded before saving your command.
+
+Juanpa Boada, [28.12.18 19:40]
+Enable Random-message Mode
+
+TestBotBarman, [28.12.18 19:40]
+Random-message mode enabled.
+
+With this mode enabled your command will send 1 message randomly chosen from all of the messages attached to the command.
+
+For example, if you attach 20 pictures to your command, your users will receive 1 random picture every time they use this command.
+
+You can continue attaching messages and files to your command.
+
+Juanpa Boada, [28.12.18 19:40]
+Mojito
+
+Juanpa Boada, [28.12.18 19:41]
+Wisky
+
+Juanpa Boada, [28.12.18 19:41]
+Vodka
+
+Juanpa Boada, [28.12.18 19:41]
+Save
+
+TestBotBarman, [28.12.18 19:41]
+Custom command /show_drinks was successfully created.
+
+TestBotBarman, [28.12.18 19:41]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:41]
+/show_drinks
+
+TestBotBarman, [28.12.18 19:41]
+Custom command /show_drinks.
+
+Here you can look at the result of a command, delete it or add it to your bot's menu.
+
+Juanpa Boada, [28.12.18 19:41]
+View Command
+
+TestBotBarman, [28.12.18 19:41]
+Vodka
+
+TestBotBarman, [28.12.18 19:41]
+Custom command /show_drinks.
+
+Here you can look at the result of a command, delete it or add it to your bot's menu.
+
+Juanpa Boada, [28.12.18 19:41]
+View Command
+
+TestBotBarman, [28.12.18 19:41]
+Mojito
+
+TestBotBarman, [28.12.18 19:41]
+Custom command /show_drinks.
+
+Here you can look at the result of a command, delete it or add it to your bot's menu.
+
+Juanpa Boada, [28.12.18 19:41]
+Edit Messages
+
+TestBotBarman, [28.12.18 19:41]
+Mojito
+
+TestBotBarman, [28.12.18 19:41]
+⬆️ Press to delete this message: /show_drinks__delete30
+
+TestBotBarman, [28.12.18 19:41]
+Wisky
+
+TestBotBarman, [28.12.18 19:41]
+⬆️ Press to delete this message: /show_drinks__delete31
+
+TestBotBarman, [28.12.18 19:41]
+Vodka
+
+TestBotBarman, [28.12.18 19:41]
+⬆️ Press to delete this message: /show_drinks__delete32
+
+Juanpa Boada, [28.12.18 19:41]
+Go Back
+
+TestBotBarman, [28.12.18 19:41]
+Custom command /show_drinks.
+
+Here you can look at the result of a command, delete it or add it to your bot's menu.
+
+Juanpa Boada, [28.12.18 19:41]
+Configure Menu
+
+TestBotBarman, [28.12.18 19:41]
+You can customize the user menu layout. Select an an element to move, rename or delete it.
+
+Juanpa Boada, [28.12.18 19:41]
+➕ Add Menu Item ➕
+
+TestBotBarman, [28.12.18 19:41]
+Choose any available command to add it to the menu.
+
+Juanpa Boada, [28.12.18 19:42]
+/hola1
+
+TestBotBarman, [28.12.18 19:42]
+You can customize the user menu layout. Select an an element to move, rename or delete it.
+
+Juanpa Boada, [28.12.18 19:42]
+➕ Add Menu Item ➕
+
+TestBotBarman, [28.12.18 19:42]
+Choose any available command to add it to the menu.
+
+Juanpa Boada, [28.12.18 19:42]
+/hola2
+
+TestBotBarman, [28.12.18 19:42]
+You can customize the user menu layout. Select an an element to move, rename or delete it.
+
+Juanpa Boada, [28.12.18 19:42]
+➕ Add Menu Item ➕
+
+TestBotBarman, [28.12.18 19:42]
+Choose any available command to add it to the menu.
+
+Juanpa Boada, [28.12.18 19:42]
+/hola3
+
+TestBotBarman, [28.12.18 19:42]
+You can customize the user menu layout. Select an an element to move, rename or delete it.
+
+Juanpa Boada, [28.12.18 19:42]
+Go Back
+
+TestBotBarman, [28.12.18 19:42]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:42]
+Config. Main Menu
+
+TestBotBarman, [28.12.18 19:42]
+You can customize the user menu layout. Select an an element to move, rename or delete it.
+
+Juanpa Boada, [28.12.18 19:42]
+Go Back
+
+TestBotBarman, [28.12.18 19:42]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:42]
+/show_drinks
+
+TestBotBarman, [28.12.18 19:42]
+Custom command /show_drinks.
+
+Here you can look at the result of a command, delete it or add it to your bot's menu.
+
+Juanpa Boada, [28.12.18 19:42]
+Delete Command
+
+TestBotBarman, [28.12.18 19:42]
+Do you really want to delete command /show_drinks?
+
+Juanpa Boada, [28.12.18 19:42]
+Yes
+
+TestBotBarman, [28.12.18 19:42]
+Command /show_drinks was successfully deleted.
+
+TestBotBarman, [28.12.18 19:42]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:42]
+Create Command
+
+TestBotBarman, [28.12.18 19:42]
+Enter the command name. Please use only latin letters, numbers and '_'.
+
+Some examples:
+/website
+/pricelist
+/contacts
+/best_music
+/best_photos
+
+Juanpa Boada, [28.12.18 19:43]
+bebidas
+
+TestBotBarman, [28.12.18 19:43]
+Bot can reply with one or more messages to a custom command. You can use text, pictures, videos or any other file type.
+
+Send everything that you want to add as a reply to this command and press 'Save'.
+
+Juanpa Boada, [28.12.18 19:43]
+Enable Random-message Mode
+
+TestBotBarman, [28.12.18 19:43]
+Random-message mode enabled.
+
+With this mode enabled your command will send 1 message randomly chosen from all of the messages attached to the command.
+
+For example, if you attach 20 pictures to your command, your users will receive 1 random picture every time they use this command.
+
+You can continue attaching messages and files to your command.
+
+Juanpa Boada, [28.12.18 19:43]
+vodka
+
+Juanpa Boada, [28.12.18 19:43]
+wisky
+
+Juanpa Boada, [28.12.18 19:43]
+ron
+
+Juanpa Boada, [28.12.18 19:43]
+Save
+
+TestBotBarman, [28.12.18 19:43]
+Custom command /bebidas was successfully created.
+
+TestBotBarman, [28.12.18 19:43]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:43]
+/bebidas
+
+TestBotBarman, [28.12.18 19:43]
+Custom command /bebidas.
+
+Here you can look at the result of a command, delete it or add it to your bot's menu.
+
+Juanpa Boada, [28.12.18 19:43]
+Configure Menu
+
+TestBotBarman, [28.12.18 19:43]
+You can customize the user menu layout. Select an an element to move, rename or delete it.
+
+Juanpa Boada, [28.12.18 19:43]
+Go Back
+
+TestBotBarman, [28.12.18 19:43]
+You can create custom commands that your bot will reply to with predefined messages. Use the menu below to create new custom commands, change the look of the bot's menu or select a command to edit it.
+
+Juanpa Boada, [28.12.18 19:43]
+Go Back
+
+TestBotBarman, [28.12.18 19:43]
+Main Menu
+
+Juanpa Boada, [28.12.18 19:43]
+Form Replies
+
+TestBotBarman, [28.12.18 19:43]
+You didn't create any forms.
+
+You can use forms to get information from your users (e.g. orders, feedback, suggestions, etc.).
+
+You can create a form by adding a question to any command. Do this by using the Add Question button while editing command's messages.
+
+Juanpa Boada, [28.12.18 19:44]
+Send New Post to Subscribers
+
+TestBotBarman, [28.12.18 19:44]
+Let's start!
+
+
+You can send one or more messages to your users including text, pictures, videos or any other file type.
+
+Send everything that you want to attach to this post. After that you can test how your post looks like and send it out to your users.
+
+Juanpa Boada, [28.12.18 19:44]
+Cancel Post
+
+TestBotBarman, [28.12.18 19:44]
+Post canceled.
+
+
+
+-------------------------------------
+
+
+
+
+Se ha testeado el modo in line bot de telegram, para mas documentacion ver aqui 
+https://core.telegram.org/bots/inline
